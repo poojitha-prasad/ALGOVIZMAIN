@@ -13,14 +13,12 @@
   height: 100%;
   position: absolute;
   overflow: hidden;
-  background-image: linear-gradient(
-    to bottom right,
-    #265077,
-    #022140,
-    #494b68,
-    #1e4258,
-    #2d575d
-  );
+  background-image: linear-gradient(to bottom right,
+      #265077,
+      #022140,
+      #494b68,
+      #1e4258,
+      #2d575d);
 }
 
 .input-container {
@@ -46,6 +44,7 @@ input {
   background-color: black;
   transition: 0.3s;
 }
+
 @media only screen and (max-width: 510px) {
   input {
     font-size: small;

@@ -11,11 +11,11 @@ export default function DataStructures() {
     }, []);
 
     return (
-        <> 
+        <>
             <div className="dataStructures">
                 <div className="pt-table desktop-768">
                     <div className="pt-tablecell page-home relative">
-                                    
+
                         <div className="overlay"></div>
 
                         <div className="container">
@@ -104,7 +104,7 @@ export default function DataStructures() {
                                                     <span className="title">Queue</span>
                                                 </span>
                                                 <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
-                                            </Link>    
+                                            </Link>
                                         </div>
                                         <div className="hexagon-item">
                                             <div className="hex-item">
@@ -128,46 +128,12 @@ export default function DataStructures() {
                                             </Link>
                                         </div>
                                         <div className="hexagon-item">
-                                            <div className="hex-item">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                            <div className="hex-item">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                            <Link className="hex-content" to='/graph' onClick={e => e.preventDefault()}>
-                                                <span className="hex-content-inner">
-                                                    <span className="icon">
-                                                        <i className="fa fa-clipboard"></i>
-                                                    </span>
-                                                    <span className="title">Graph</span>
-                                                </span>
-                                                <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
-                                            </Link>
+
+
                                         </div>
                                         <div className="hexagon-item">
-                                            <div className="hex-item">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                            <div className="hex-item">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                            <Link className="hex-content" to='/advancedDsa' onClick={e => e.preventDefault()}>
-                                                <span className="hex-content-inner">
-                                                    <span className="icon">
-                                                        <i className="fa fa-map-signs"></i>
-                                                    </span>
-                                                    <span className="title">Advanced Data Structure</span>
-                                                </span>
-                                                <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
-                                            </Link>
+
+
                                         </div>
                                     </div>
                                 </div>

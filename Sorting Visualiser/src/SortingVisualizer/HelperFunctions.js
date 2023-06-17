@@ -104,7 +104,7 @@ export function playAudio(myAudio) {
   const audio = new Audio(myAudio);
   audio.preload = "auto";
   const playing = audio.play();
-  playing.then(() => {}).catch(() => {});
+  playing.then(() => { }).catch(() => { });
 }
 
 export function playCompletedSoundEffect() {

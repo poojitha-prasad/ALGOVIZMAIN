@@ -13,15 +13,8 @@ export default function Header() {
                             {/*   */}
                             {/* <li className="nav-item"> <Link className="nav-link" to='/'><i className="fa fa-search"></i></Link> </li> */}
                             {/* <li className="nav-item"> <a className="nav-link" href='https://github.com/darshankparmar' rel="noreferrer" target="_blank"><i className="fab fa-3x fa-github"></i></a> </li> */}
-                        </ul> 
-                        <div className="d-flex flex-column sim">                             
-                            <div className="media d-flex align-items-center">
-                                <img src="https://bootstrapious.com/i/snippets/sn-v-nav/avatar.png" alt="..." width="65" className="mr-3 rounded-circle img-thumbnail shadow-sm" />
-                                <div className="media-body">
-                                    <h5 className="m-0">username</h5>   
-                                </div>
-                            </div>
-                        </div>
+                        </ul>
+
                     </div>
                 </div>
             </nav>

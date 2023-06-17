@@ -35,7 +35,7 @@ export default class SortingVisualizer extends Component {
       const array = value.split(",").map(Number); // Convert input string to array of numbers
       this.setState({ userInputArray: array });
     };
-    
+
 
     this.generateNewArray = this.generateNewArray.bind(this);
     this.bubbleSort = this.bubbleSort.bind(this);
@@ -57,15 +57,15 @@ export default class SortingVisualizer extends Component {
   // ## This function generates new random array of size "numberOfArrayBars". ## //
   generateNewArray() {
     let array = [];
-  if (this.state.userInputArray.length > 0) { // If user input array exists
-    array = [...this.state.userInputArray];
-  } else { // Generate random array
-    for (let i = 0; i < this.state.numberOfArrayBars; i++) {
-      array.push(randomIntFromInterval(5, 70));
+    if (this.state.userInputArray.length > 0) { // If user input array exists
+      array = [...this.state.userInputArray];
+    } else { // Generate random array
+      for (let i = 0; i < this.state.numberOfArrayBars; i++) {
+        array.push(randomIntFromInterval(5, 70));
+      }
     }
-  }
-  playAudio(ResetEffect);
-  this.setState({ array });
+    playAudio(ResetEffect);
+    this.setState({ array });
   }
 
   // ******************************************************************************* //
@@ -115,8 +115,8 @@ export default class SortingVisualizer extends Component {
         />
         {/* --------------------- USER INPUT : 3% Height --------------------- */}
         <div className="input-container">
-         <label htmlFor="user-input">Input your own array:</label>
-         <input type="text" id="user-input" name="user-input" onChange={this.handleUserInputArray} />
+          <label htmlFor="user-input">Input your own array:</label>
+          <input type="text" id="user-input" name="user-input" onChange={this.handleUserInputArray} />
         </div>
 
 
@@ -133,7 +133,7 @@ export default class SortingVisualizer extends Component {
           }
         />
       </div>
-      
+
     );
   }
 }
